@@ -117,3 +117,96 @@
   nav a:hover {
   color: #3A77B0;
   }
+
+  /* Style pour tous les boutons */
+  .cart-link,
+  .histoire-button,
+  .contact-button,
+  .dropdown-toggle {
+    background-color: #7CB342;
+    color: white !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .cart-link:hover,
+  .histoire-button:hover,
+  .contact-button:hover,
+  .dropdown-toggle:hover {
+    background-color: #689F38;
+  }
+  
+  /* Style pour les catégories de produits */
+  .products-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .category-section {
+    margin-bottom: 60px;
+  }
+  
+  .category-title {
+    font-size: 32px;
+    color: #7CB342;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #7CB342;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .product-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .product-name {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #7CB342;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #7CB342;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #689F38;
+  }
