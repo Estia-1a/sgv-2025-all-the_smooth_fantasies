@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #0d1b2a;
+    background-color: #EBEADF;
     color: white;
   }
   
@@ -71,7 +71,7 @@
   .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #101820;
+  background-color: #EBEADF;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   }
