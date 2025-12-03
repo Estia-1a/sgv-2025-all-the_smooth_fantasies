@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
 <meta charset="utf-8"/>
 <title>Panier</title>
-<script defer="" src="scripts.js"></script>
-<link href="css/style.css" rel="stylesheet"/></head>
+<script defer src="scripts.js"></script>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
 <body>
 <header>
 <div class="logo"><a href="index.html"><img alt="logo site" src="media/pictures/logo site.png"/></a></div>
@@ -19,8 +19,8 @@
 <li><a href="Féculent.html">Féculent</a></li>
 </ul>
 </li>
-<li><a href="histoire.html">Notre Histoire</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a class="histoire-button" href="histoire.html">Notre Histoire</a></li>
+<li><a class="contact-button" href="contact.html">Contact</a></li>
 </ul>
 <ul class="cart-menu">
 <li><a class="cart-link" href="panier.html">🛒 Panier</a></li>
@@ -33,8 +33,8 @@
 <button onclick="localStorage.clear(); location.reload();">Vider le panier</button>
 <button onclick="localStorage.clear(); location.reload();">Procéder au paiement</button>
 <a href="produits.html">Retour aux produits</a>
-</div>
 <footer>
 <p>© 2025 Le jardin de Bidart. Tous droits réservés. | <a href="contact.html">Contactez-nous</a></p>
 </footer>
+</body>
 </html>
