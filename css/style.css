@@ -118,7 +118,12 @@
   nav a:hover {
   color: #3A77B0;
   }
-
+  /* Style pour la page panier*/
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
   /* Style pour les boutons de la page commande */
   .cart-link,
   .histoire-button,
