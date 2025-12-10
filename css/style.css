@@ -65,10 +65,10 @@
   }
 
 /*Bouton en haut à droite*/
-  .bouton-commande {
+  .bouton-panier {
     margin-left: auto;
   }
-  .main-menu, .bouton-commande {
+  .main-menu, .bouton-panier {
   display: flex;
   align-items: center;
   }
