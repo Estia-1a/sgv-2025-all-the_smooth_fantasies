@@ -151,7 +151,7 @@
   .histoire-button,
   .contact-button,
   .dropdown-toggle {
-    background-color: #7CB342;
+    background-color: #3A77B0;
     color: white !important;
     padding: 10px 20px;
     text-decoration: none;
@@ -167,10 +167,19 @@
   .histoire-button:hover,
   .contact-button:hover,
   .dropdown-toggle:hover {
-    background-color: #689F38;
+    background-color: #3A77B0;
   }
   
   /* Style pour les catégories de produits */
+  .product-card img {
+    width: 100px;          
+    height: 100px;
+    object-fit: contain;  
+    display: block;
+    margin: 0 auto 15px;   
+}
+
+
   .products-container {
     max-width: 1200px;
     margin: 40px auto;
@@ -183,10 +192,10 @@
   
   .category-title {
     font-size: 32px;
-    color: #7CB342;
+    color: #3A77B0;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #7CB342;
+    border-bottom: 3px solid #3A77B0;
   }
   
   .products-grid {
@@ -218,13 +227,13 @@
   
   .product-price {
     font-size: 18px;
-    color: #7CB342;
+    color: #3A77B0;
     font-weight: bold;
     margin: 10px 0;
   }
   
   .add-to-cart-btn {
-    background-color: #7CB342;
+    background-color: #3A77B0;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -236,5 +245,5 @@
   }
   
   .add-to-cart-btn:hover {
-    background-color: #689F38;
+    background-color: #3A77B0;
   }
