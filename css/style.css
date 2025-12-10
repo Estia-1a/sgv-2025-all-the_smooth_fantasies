@@ -124,10 +124,27 @@
     margin: 2rem 0;
   }
   
-  .action_dans_le_panier {
+  .bouton_dans_le_panier {
     text-align: center;
     margin-top: 2rem;
   }
+  .bouton_dans_le_panier button,
+    .bouton_dans_le_panier a {
+      background-color: #16538B;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .bouton_dans_le_panier button:hover,
+    .bouton_dans_le_panier a:hover {
+      background-color: #3A77B0;
+    }
   
   /* Style pour les boutons de la page commande */
   .cart-link,
