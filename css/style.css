@@ -124,6 +124,11 @@
     margin: 2rem 0;
   }
   
+  .action_dans_le_panier {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
   /* Style pour les boutons de la page commande */
   .cart-link,
   .histoire-button,
