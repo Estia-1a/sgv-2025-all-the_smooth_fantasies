@@ -146,6 +146,11 @@
       background-color: #3A77B0;
     }
   
+    .erreur img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
   /* Style pour les boutons de la page commande */
   .cart-link,
   .histoire-button,
