@@ -133,9 +133,9 @@
       background-color: #16538B;
       color: white;
       padding: 10px 20px;
-      border: none;
+      border: 0;
       border-radius: 6px;
-      text-decoration: none;
+      text-decoration: 0;
       margin: 0 10px;
       font-size: 1rem;
       cursor: pointer;
