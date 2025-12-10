@@ -49,7 +49,7 @@
     font-weight: bold;
   }
 
-  /*menu deroulant*/
+/*menu deroulant*/
   .deroulant:hover .dropdown-menu {
   display: block;
   }
@@ -63,6 +63,7 @@
   .dropdown-menu li {
   margin: 0.5rem 0;
   }
+
 /*Bouton en haut à droite*/
   .bouton-commande {
     margin-left: auto;
@@ -71,7 +72,20 @@
   display: flex;
   align-items: center;
   }
-  
+
+/*design footer*/
+footer {
+  background: #EBEADF;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  }
+  footer a {
+  color: #16538B;
+  text-decoration: none;
+  }
+
   body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
